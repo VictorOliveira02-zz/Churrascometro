@@ -103,3 +103,17 @@ button:hover {
     margin-right: 10px;
     width: 80px;
 }
+
+@media (max-width: 1200px){
+    body {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32px;
+      }
+
+      #input-container{
+        width: 95%;
+    }
+}
